@@ -1,4 +1,5 @@
-export default function SideListItem({ isSelectedCripto, selectCripto, item }) {
+export default function SideListItem(props) {
+  const { isSelectedCripto, selectCripto, item } = props
   const { id, name } = item
 
   // const id = item.id
